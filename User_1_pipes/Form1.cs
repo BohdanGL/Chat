@@ -51,7 +51,7 @@ namespace LabOS_11_User_1_sockets
 
             StreamReader sr = new StreamReader(pipeServer);
 
-            // Display the read text to the console
+            // Display  the read text to the console
             string temp;
 
             if((temp = sr?.ReadLine()) != null)
